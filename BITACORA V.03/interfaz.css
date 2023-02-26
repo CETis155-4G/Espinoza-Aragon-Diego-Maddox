@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 { /*Se define el titulo*/
+    text-align: center; /*Se centra el texto*/
+    background-color: black; /*Color del recuadro*/
+    color: white; /*Color de la letra */
+    padding: 20px; /*Se separa el texto de arriba*/
+}
+nav ul{ /*Recuadro de Menu*/
+    background-color: #9228de; /*Color de recuadro*/
+    width: 100%; /*Se centra el objeto en la pantalla*/
+    color: white; /*Color de Texto*/
+    list-style-type: none;
+    text-align: center; /*Se centra el texto*/
+}
+nav a {
+    text-decoration: none; /*Ninguna decoracion de texto*/
+    color: white; /*Color de texto*/
+    padding: 10px; /*Separacion de texto hacia abajo*/
+    width: 150px; /*Centralizacion*/
+}
+nav li:hover{
+    background-color: black; /*Color de recuadro*/
+
+}
+img { /*Imagenes*/
+    width:200px; /*Pocisiones de imagen*/
+    height:200px;
+    border-radius: 50%; /*Redondeo de imagen*/
+    object-fit: cover; /*Se ajusta*/
+}
+.contenido {/*Clase de contenido de texto*/
+    display: flex;
+    margin: 60px;
+}
+.articulos {/*definicion de linea*/
+    width: 80%;
+    border-right: 3px solid black/*grosor de linea*/
+}
+.secciones{/*linea vertical (clase de secciones)*/
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.menu-secundario {
+    width: 20%;
+    margin-top: 60px;
+
+}
+.menu-secundario a {
+    display: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+footer {/*Recuadro al final de la paguina*/
+    width: 100%;/*Posiciones de imagen*/
+    padding: 40px;
+    height: 60px;
+    text-align: center;/*centrar texto*/
+    background-color: black;/*color de recuadro*/
+    color: white; /*color de texto*/
+    margin-top: 10px; 
+}
