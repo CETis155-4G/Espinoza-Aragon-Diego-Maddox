@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { /*modificacion del body*/
+    font-family:arial;/*Fuente*/
+    background-image: url("xd.jpg");/*Imagen de Fondo*/
+}
+
+.form-registrer {/*clase de registro*/
+    width: 550px;/*Ancho y largo del recuadro*/
+    height:620px;
+    background: #4e4d4d;/*color del recuadro*/
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 7px 13px 37px rgb(19, 248, 248);/*relieve del recuadro*/
+    padding: 40px 30px;/*Contorno del recuadro*/
+    border-top: 8px solid #017bab;/*recuadro (diseño)*/
+    color: white;/*color de la letra*/
+
+}
+
+.form-registrer p{/*Clase de registro*/
+    height: 40px;/*Posicion*/
+    text-align: center;
+    border-bottom: 1px solid;/*contorno*/
+
+}
+
+.form-registrer a{/*clase*/
+    color:white;/*color de letra*/
+}
+
